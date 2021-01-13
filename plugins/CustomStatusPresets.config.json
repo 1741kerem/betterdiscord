@@ -1,0 +1,31 @@
+{
+	"presets": {
+		"664316677527263": {
+			"pos": 0,
+			"emojiInfo": {
+				"id": null,
+				"name": "😘",
+				"animated": false
+			},
+			"text": "Selam Cınım"
+		},
+		"7618504738299883": {
+			"pos": 1,
+			"emojiInfo": {
+				"id": null,
+				"name": "😴",
+				"animated": false
+			},
+			"text": "Dışarıdayım"
+		},
+		"8903519311324393": {
+			"pos": 2,
+			"emojiInfo": {
+				"id": null,
+				"name": "🚴",
+				"animated": false
+			},
+			"text": "Kilometrelerce Yollarda"
+		}
+	}
+}

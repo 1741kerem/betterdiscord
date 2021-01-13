@@ -1,0 +1,20 @@
+{
+	"changeLogs": {
+		"BDFDB": "1.2.9",
+		"BetterFriendList": "1.3.2",
+		"CreationDate": "1.4.0",
+		"CustomStatusPresets": "1.0.4",
+		"EditUsers": "4.0.9",
+		"GoogleTranslateOption": "2.1.2",
+		"ImageUtilities": "4.2.4",
+		"JoinedAtDate": "1.2.5",
+		"MessageUtilities": "1.8.2",
+		"OwnerTag": "1.3.6",
+		"ServerDetails": "1.0.4"
+	},
+	"settings": {
+		"showSupportBadges": true,
+		"showToasts": true,
+		"useChromium": false
+	}
+}

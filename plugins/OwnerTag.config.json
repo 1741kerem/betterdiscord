@@ -1,0 +1,20 @@
+{
+	"inputs": {
+		"ownAdminTagName": "Yönetici",
+		"ownManagementTagName": "",
+		"ownTagName": "Kurucu"
+	},
+	"settings": {
+		"addForAdmins": true,
+		"addForManagement": false,
+		"addInChatWindow": true,
+		"addInMemberList": true,
+		"addInUserPopout": true,
+		"addInUserProfile": true,
+		"hideNativeCrown": true,
+		"ignoreBotAdmins": true,
+		"useBlackFont": true,
+		"useCrown": false,
+		"useRoleColor": true
+	}
+}

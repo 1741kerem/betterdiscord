@@ -1,0 +1,207 @@
+ //META{"name":"Discord+ Status","description":"Discord kullanicilarinin avatarinin etrafinda durumunun rengi gozukur.","author":"UnDead To Infinity","version":"1"}*//
+ .wrapper-3t9DeA foreignObject+rect[mask*="svg-mask-status"],
+ .wrapper-3t9DeA[class*="avatar"] foreignObject+rect[y="22"] {
+   x: 1 !important;
+   y: 1 !important;
+   rx: var(--roundness) !important;
+   mask: none !important;
+   -webkit-mask: none !important;
+   fill-opacity: -.1 !important;
+   stroke-width: 2px;
+   transition: stroke 200ms ease-in-out;
+ }
+ 
+ .wrapper-3t9DeA foreignObject+svg+rect[mask*="svg-mask-status"],
+ .wrapper-3t9DeA[class*="avatar"] foreignObject+svg+rect[y="22"] {
+   opacity: 0;
+ }
+ 
+ #app-mount .wrapper-3t9DeA foreignObject+svg rect {
+   position: absolute;
+   height: 32px !important;
+   width: 32px !important;
+   top: 0;
+   left: 0;
+   mask: none !important;
+   transform: translate(-14.5px, -17px);
+   fill-opacity: 0;
+   stroke-width: 2px;
+   rx: var(--roundness) !important;
+   transition: stroke 200ms ease-in-out;
+ }
+ 
+ #app-mount .wrapper-3t9DeA[style*="height: 24px"] rect[mask*="svg-mask-status"] {
+   height: 22px !important;
+   width: 24px !important;
+ }
+ 
+ #app-mount .wrapper-3t9DeA[style*="height: 32px"] rect[mask*="svg-mask-status"],
+ #app-mount .wrapper-3t9DeA[style*="height: 32px"] rect[y="22"] {
+   height: 32px !important;
+   width: 32px !important;
+ }
+ 
+ #app-mount .wrapper-3t9DeA[style*="height: 40px"] rect[mask*="svg-mask-status"],
+ #app-mount .wrapper-3t9DeA[style*="height: 40px"] rect[y="28"] {
+   height: 38px !important;
+   width: 40px !important;
+ }
+ 
+ #app-mount .wrapper-3t9DeA[style*="height: 80px"] rect[mask*="svg-mask-status"],
+ #app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect {
+   height: 78px !important;
+   width: 80px !important;
+ }
+ 
+ #app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect:not([x*="60"]) {
+   transform: translate(-48px, -51px);
+ }
+ 
+ #app-mount svg:not(:root),
+ .userInfo-2zN2z8 {
+   overflow: visible !important;
+ }
+ 
+ rect[fill="#43b581"] + .dots-3Bkt3k {
+   color: var(--online);
+ }
+ 
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#43b581"],
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="online"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="rgba(67, 181, 129, 1)"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="#43b581"] {
+   -webkit-text-stroke-color: var(--online);
+   stroke: var(--online);
+ }
+ 
+ rect[fill="#f04747"] + .dots-3Bkt3k {
+   color: var(--dnd);
+ }
+ 
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#f04747"],
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="dnd"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="rgba(240, 71, 71, 1)"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="#f04747"] {
+   -webkit-text-stroke-color: var(--dnd);
+   stroke: var(--dnd);
+ }
+ 
+ rect[fill="#faa61a"] + .dots-3Bkt3k {
+   color: var(--idle);
+ }
+ 
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#faa61a"],
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="idle"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="rgba(250, 166, 26, 1)"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="#faa61a"] {
+   -webkit-text-stroke-color: var(--idle);
+   stroke: var(--idle);
+ }
+ 
+ rect[fill="#593695"] + .dots-3Bkt3k {
+   color: var(--streaming);
+ }
+ 
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#593695"],
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="streaming"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="rgba(89, 54, 149, 1)"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="#593695"] {
+   -webkit-text-stroke-color: var(--streaming);
+   stroke: var(--streaming);
+ }
+ 
+ .wrapper-3t9DeA[class*="avatar"] rect:not([mask*="svg-mask-status"])[y="22"][fill="transparent"] {
+   -webkit-text-stroke-color: var(--offline);
+   stroke: var(--offline);
+ }
+ 
+ rect[fill="#747f8d"] + .dots-3Bkt3k {
+   color: var(--offline);
+ }
+ 
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#747f8d"],
+ .wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="invisible"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="rgba(116, 127, 141, 1)"],
+ .wrapper-3t9DeA foreignObject+svg rect[fill="#747f8d"] {
+   stroke: var(--offline);
+   -webkit-text-stroke-color: var(--offline);
+ }
+ 
+ .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
+   width: 79.5px;
+   height: 77.5px;
+   transition: opacity 200ms ease-in-out;
+   margin: 1px 1px 1px 1px;
+ }
+ 
+ foreignObject[mask*="mobile"] {
+   overflow: visible !important;
+ }
+ 
+ .privateChannels-1nO12o a.channel-2QD9_O .content-3QAtGj,
+ .member-3-YXUe .content-3QAtGj {
+   max-width: 120px
+ }
+ 
+ .privateChannels-1nO12o a.channel-2QD9_O foreignObject[mask*="mobile"]::before,
+ .privateChannels-1nO12o a.channel-2QD9_O foreignObject[mask*="mobile"]::after {
+   left: 165px;
+   height: 20px;
+   width: 20px;
+ }
+ 
+ .privateChannels-1nO12o a.channel-2QD9_O .children-gzQq2t {
+   margin-left: 20px;
+ }
+ 
+ foreignObject[mask*="mobile"]::before,
+ foreignObject[mask*="mobile"]::after {
+   position: absolute;
+   content: "";
+   height: 25px;
+   width: 25px;
+   background: rgba(0,0,0,.4);
+   top: 50%;
+   left: 170px;
+   transform: translateY(-50%);
+   border-radius: 50%;
+   opacity: .6;
+ }
+ 
+ foreignObject[mask*="mobile"]::after {
+   background: var(--online);
+   mask: url("https://monstrousdev.github.io/themes/assets/svgs/phone.svg") center/70% no-repeat;
+   -webkit-mask: url("https://monstrousdev.github.io/themes/assets/svgs/phone.svg") center/70% no-repeat;
+ }
+ 
+ .avatarHint-1qgaV3 foreignObject[mask*="mobile"]::before,
+ .avatarHint-1qgaV3 foreignObject[mask*="mobile"]::after {
+   display: none;
+ }
+ 
+ .userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
+ .userPopout-3XzG_A foreignObject[mask*="mobile"]::after,
+ .modal-3c3bKg foreignObject[mask*="mobile"]::before,
+ .modal-3c3bKg foreignObject[mask*="mobile"]::after {
+   top: -19px;
+   left: unset;
+   right: -85px;
+   height: 35px;
+   width: 35px;
+   opacity: 1;
+   transform: none;
+ }
+ 
+ .modal-3c3bKg foreignObject[mask*="mobile"]::before,
+ .modal-3c3bKg foreignObject[mask*="mobile"]::after {
+   top: -20px;
+   right: -500px;
+ }
+ 
+ .userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
+ .modal-3c3bKg foreignObject[mask*="mobile"]::before {
+   border-radius: 0px;
+   border-bottom-left-radius: 25%;
+   background: rgba(0, 0, 0, .7)
+ }
+ 

@@ -1,0 +1,21 @@
+{
+	"choices": {
+		"inputContext": "auto",
+		"inputMessage": "$discord",
+		"outputContext": "$discord",
+		"outputMessage": "en"
+	},
+	"engines": {
+		"translator": "itranslate"
+	},
+	"exceptions": {
+		"wordStart": [
+			"!"
+		]
+	},
+	"settings": {
+		"addTranslateButton": true,
+		"sendOriginalMessage": false,
+		"useChromium": false
+	}
+}

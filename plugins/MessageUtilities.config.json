@@ -1,0 +1,87 @@
+{
+	"bindings": {
+		"Copy_Link": {
+			"click": 0,
+			"keycombo": []
+		},
+		"Copy_Raw": {
+			"click": 0,
+			"keycombo": []
+		},
+		"Delete_Message": {
+			"click": 0,
+			"keycombo": [
+				46
+			]
+		},
+		"Edit_Message": {
+			"click": 1,
+			"keycombo": []
+		},
+		"Pin/Unpin_Message": {
+			"click": 0,
+			"keycombo": []
+		},
+		"React_to_Message": {
+			"click": 0,
+			"keycombo": []
+		},
+		"Reply_to_Message": {
+			"click": 0,
+			"keycombo": [
+				17,
+				84
+			]
+		},
+		"__Note_Message": {
+			"click": 0,
+			"keycombo": [
+				16
+			]
+		},
+		"__Quote_Message": {
+			"click": 0,
+			"keycombo": [
+				17,
+				87
+			]
+		},
+		"__Reveal_Spoilers": {
+			"click": 0,
+			"keycombo": [
+				17,
+				74
+			]
+		},
+		"__Translate_Message": {
+			"click": 0,
+			"keycombo": [
+				20
+			]
+		}
+	},
+	"settings": {
+		"Copy_Link": false,
+		"Copy_Raw": false,
+		"Delete_Message": true,
+		"Edit_Message": true,
+		"Pin/Unpin_Message": false,
+		"React_to_Message": false,
+		"Reply_to_Message": true,
+		"__Note_Message": false,
+		"__Quote_Message": false,
+		"__Reveal_Spoilers": false,
+		"__Translate_Message": false,
+		"addHints": true,
+		"clearOnEscape": true
+	},
+	"toasts": {
+		"Copy_Link": false,
+		"Copy_Raw": false,
+		"Delete_Message": true,
+		"Edit_Message": true,
+		"Pin/Unpin_Message": false,
+		"React_to_Message": false,
+		"Reply_to_Message": true
+	}
+}
