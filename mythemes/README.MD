@@ -39,7 +39,7 @@
 
 <ul>
 <li><code>--card-color</code> - Kartlar için arka plan rengi. Varsayılan: <code>rgba(0,0,0, 0.4)</code></li>
-<li><code>--card-color-hover</code> - Kartların üzerinde gezinmek için arka plan rengi (if there is a hover animation). Varsayılan: <code>rgba(0,0,0, 0.5)</code></li>
+<li><code>--card-color-hover</code> - Kartların üzerinde gezinmek için arka plan rengi (fareyle üzerine gelme animasyonu varsa). Varsayılan: <code>rgba(0,0,0, 0.5)</code></li>
 <li><code>--card-radius</code> - Kartlar için sınır yarıçapı. Varsayılan: <code>8px</code></li>
 </ul>
 
@@ -47,7 +47,7 @@
 
 <ul>
 <li><code>--button-color</code> - Çoğu düğme için arka plan rengi. Varsayılan: <code>#d73d3d</code></li>
-<li><code>--button-action-color</code> - Gezinme ve düğmelere tıklamak için arka plan rengi (has a lowered opacity). Varsayılan: <code>#000</code></li>
+<li><code>--button-action-color</code> - Gezinme ve düğmelere tıklamak için arka plan rengi (azaltılmış bir opaklığa sahiptir). Varsayılan: <code>#000</code></li>
 <li><code>--button-text-color</code> - Kullanan tüm düğmeler için metin rengi <code>--button-color</code>. Varsayılan: <code>#000</code></li>
 <li><code>--button-radius</code> - Düğmeler için kenarlık yarıçapı. Varsayılan: <code>8px</code></li>
 </ul>
