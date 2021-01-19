@@ -1,28 +1,28 @@
 
 <h2><a id="user-content-variables" class="anchor" aria-hidden="true" href="#variables"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"></svg></a>Variables</h2>
 
-<h4><a id="user-content-app-elements" class="anchor" aria-hidden="true" href="#app-elements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"></svg></a>App elements</h4>
+<h4><a id="user-content-app-elements" class="anchor" aria-hidden="true" href="#app-elements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"></svg></a>Uygulama Öğeleri</h4>
 <ul>
   
-<li><code>--app-bg</code> - The background image for the entire Discord app. Default: <code>url(https://i.hizliresim.com/zwoqJC.jpg)</code></li>
-<li><code>--app-blur</code> - The strength of the blur for every element that has one. Default: <code>6px</code></li>
-<li><code>--app-margin</code> - The margin surrounding the content area. Default: <code>24px</code></li>
-<li><code>--app-radius</code> - The border radius of the app and every element that has a border radius. Default: <code>8px</code></li>
-<li><code>--app-accent</code> - The app accent color. Default: <code>#d73d3d</code></li>
-<li><code>--app-accent-rgb</code> - The rgb values of the app accent color. Default: <code>215,61,61</code></li>
-<li><code>--app-accent-text</code> - The text color for buttons and other various elements with the accent background color. Default: <code>#000</code></li>
-<li><code>--sidebar-color</code> - The background color of the sidebars. Default: <code>rgba(0,0,0, 0.4)</code></li>
-<li><code>--main-content-color</code> - The background color of the main content areas. Default: <code>rgba(0,0,0, 0.2)</code></li>
+<li><code>--app-bg</code> - Discord Ana Arka Plan Resmidir. Varsayılan: <code>url(https://i.hizliresim.com/zwoqJC.jpg)</code></li>
+<li><code>--app-blur</code> - Her öğe için bulanıklık Gücü. Varsayılan: <code>6px</code></li>
+<li><code>--app-margin</code> - İçerik alanını çevreleyen kenar boşluğu. Varsayılan: <code>24px</code></li>
+<li><code>--app-radius</code> - Uygulamanın kenarlık yarıçapı ve kenarlık yarıçapı olan her öğe. Varsayılan: <code>8px</code></li>
+<li><code>--app-accent</code> - Uygulama vurgu rengi. Varsayılan: <code>#d73d3d</code></li>
+<li><code>--app-accent-rgb</code> - Uygulama vurgu renginin rgb değerleri. Varsayılan: <code>215,61,61</code></li>
+<li><code>--app-accent-text</code> - Vurgulu arka plan rengine sahip düğmeler ve diğer çeşitli öğeler için metin rengi. Varsayılan: <code>#000</code></li>
+<li><code>--sidebar-color</code> - Kenar çubuklarının arka plan rengi. Varsayılan: <code>rgba(0,0,0, 0.4)</code></li>
+<li><code>--main-content-color</code> - Ana içerik alanlarının arka plan rengi. Varsayılan: <code>rgba(0,0,0, 0.2)</code></li>
 </ul>
 
-<h4><a id="user-content-messages" class="anchor" aria-hidden="true" href="#messages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"></svg></a>Messages</h4>
+<h4><a id="user-content-messages" class="anchor" aria-hidden="true" href="#messages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"></svg></a>Mesajlar</h4>
 
 <ul>
-<li><code>--messages-color</code> - The background color for messages. Default: <code>rgba(0,0,0, 0.4)</code></li>
-<li><code>--messages-radius</code> - The border radius for messages. Default: <code>8px</code></li>
-<li><code>--mention-color</code> - The border and glow color for mentioned messages. Default: <code>#d73d3d</code></li>
-<li><code>--mention-rgb</code> - The rgb values of the mention color. Default: <code>215,61,61</code></li>
-<li><code>--mention-alt</code> - The border and glow color for highlighted messages that aren't mentions. Default: <code>#5274e9</code></li>
+<li><code>--messages-color</code> - Mesajlar için arka plan rengi. Varsayılan: <code>rgba(0,0,0, 0.4)</code></li>
+<li><code>--messages-radius</code> - Mesajlar için sınır yarıçapı. Varsayılan: <code>8px</code></li>
+<li><code>--mention-color</code> - Bahsedilen mesajlar için kenarlık ve parlaklık rengi. Varsayılan: <code>#d73d3d</code></li>
+<li><code>--mention-rgb</code> - Bahsedilen rengin rgb değerleri. Varsayılan: <code>215,61,61</code></li>
+<li><code>--mention-alt</code> - Bahsedilmeyen vurgulu mesajlar için kenarlık ve parlaklık rengi. Varsayılan: <code>#5274e9</code></li>
 </ul>
 
 <h4><a id="user-content-textareas-and-inputs" class="anchor" aria-hidden="true" href="#textareas-and-inputs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"></svg></a>Textareas and inputs</h4>
